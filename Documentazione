@@ -1,0 +1,10 @@
+Documentazione 
+
+->	Si è scelto di utilizzare una funzione ausiliaria per effettuare il reset dei campi del PCB, quando questo viene prelevato dalla lista dei PCB liberi.
+In questo modo è possibile utilizzare la ricorsione per azzerare facilmente i numerosi campi p_s.gpr[n].
+
+->	Nelle funzioni freePcb(pcb_t *p) e allocPcb() si è scelto di inserire o rimuovere il PCB in testa alla lista perchè rimaneva più comodo.
+
+->	Le code non sono cicliche.
+
+-> ...
